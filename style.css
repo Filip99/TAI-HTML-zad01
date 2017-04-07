@@ -1,0 +1,23 @@
+div{
+  text-align: center;
+  position: relative;
+  width: 1050px;
+  height: auto;
+  margin: 0 auto;
+}
+#main{
+  width: 1000px;
+  height: auto;
+}
+.in_A, .in_B, .in_C, .out_S, .out_C
+  {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+  }
+
+  .in_A { left: 10px; top: 70px;}
+  .in_B { left: 10px; top:140px;}
+  .in_C { left: 130px; top: 260px;}
+  .out_S { left: 1000px; top: 480px;display: none;}
+  .out_C { left: 900px; top: 140px;}
